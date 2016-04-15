@@ -5,6 +5,7 @@ Learn how to use Node-RED nodes with these quick labs
 * [Language Translation](node-red-language-translation.pdf)
 * [Personality Insights](node-red-personality-insights.pdf)
 * [Text to Speech](node-red-text-to-speech.pdf)
+* [Creating a Webpage](node-red-webpage)
 
 # Multi-part services
 * [Water Usage Tracking/Notification](lab-iot-water-usage-sensor-lab.pdf)
