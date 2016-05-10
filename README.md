@@ -2,10 +2,13 @@
 Learn how to use Node-RED nodes with these quick labs
 
 # IBM Watson services
-* [Language Translation](node-red-language-translation.pdf)
-* [Personality Insights](node-red-personality-insights.pdf)
-* [Text to Speech](node-red-text-to-speech.pdf)
-* [Creating a Webpage](node-red-webpage)
+* [Language Translation](tree/master/node-red-language-translation)
+* [Personality Insights](tree/master/node-red-personality-insights)
+* [Text to Speech](tree/master/node-red-text-to-speech)
+* [AlchemyAPI](tree/master/node-red-alchemyapi)
+
+# Other labs
+* [Creating a Webpage](tree/master/node-red-webpage)
 
 # Multi-part services
 * [Water Usage Tracking/Notification](lab-iot-water-usage-sensor-lab.pdf)

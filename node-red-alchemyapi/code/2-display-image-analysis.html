@@ -1,0 +1,70 @@
+<!--
+#***************************************************************************
+# Copyright 2016 IBM
+#
+#   AlchemyAPI in Node-RED
+#
+#   By JeanCarl Bisson (@dothewww)
+#   More info: https://ibm.biz/node-red-alchemyapi
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#***************************************************************************
+-->
+<img src="{{payload}}" style="max-width: 300px; max-height: 300px"/>
+
+{{#result}}
+<table border="1">
+  <tr>
+    <td colspan="2">{{identity.name}}</td>
+  </tr>
+  <tr>
+    <td>Age</td>
+    <td>{{age.ageRange}} ({{age.score}})</td>
+  </tr>
+  <tr>
+    <td>Gender</td>
+    <td>{{gender.gender}} {{gender.score}}</td>
+  </tr>
+  <tr>
+    <td>Position</td>
+    <td>({{positionX}}, {{positionY}}) [{{width}} x {{height}}]</td>
+  </tr>
+  <tr>
+    <td>Type</td>
+    <td>
+      {{#identity.disambiguated.subType}}
+        {{.}}<br />
+      {{/identity.disambiguated.subType}}
+    </td>
+  </tr>
+  <tr>
+    <td>References</td>
+    <td>
+      {{#identity.disambiguated.dbpedia}}
+        <a href="{{.}}" target="_blank">{{.}}</a><br />
+      {{/identity.disambiguated.dbpedia}}
+      {{#identity.disambiguated.freebase}}
+        <a href="{{.}}" target="_blank">{{.}}</a><br />
+      {{/identity.disambiguated.freebase}}
+      {{#identity.disambiguated.musicBrainz}}
+        <a href="{{.}}" target="_blank">{{.}}</a><br />
+      {{/identity.disambiguated.musicBrainz}}
+      {{#identity.disambiguated.yago}}
+        <a href="{{.}}" target="_blank">{{.}}</a><br />
+      {{/identity.disambiguated.yago}}
+      {{#identity.disambiguated.website}}
+        <a href="{{.}}" target="_blank">{{.}}</a><br />
+      {{/identity.disambiguated.website}}
+    </td>
+  </tr>
+</table>
+{{/result}}

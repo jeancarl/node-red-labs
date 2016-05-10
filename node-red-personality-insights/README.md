@@ -10,7 +10,7 @@ Download and follow the lab found in [node-red-personality-insights.pdf](https:/
 
 HTML and JSON code used in this Node-RED tutorial is provided for your convenience in the following files:
 
-* [1-barack-obama-speech.text](https://github.com/jeancarl/node-red-labs/tree/master/node-red-personality-insights/code/1-barack-obama-speech) Text from Barack Obama's 2012 Debate
+* [1-barack-obama-speech.txt](https://github.com/jeancarl/node-red-labs/tree/master/node-red-personality-insights/code/1-barack-obama-speech.txt) Text from Barack Obama's 2012 Debate
 * [2-complete-flow.json](https://github.com/jeancarl/node-red-labs/tree/master/node-red-personality-insights/code/2-complete-flow.json) Import this JSON into Node-RED to build the completed flow.
 
 ## License
