@@ -10,7 +10,7 @@ Download and follow the lab found in [node-red-twitter-personality.pdf](https://
 
 JavaScript, HTML and JSON code used in this Node-RED tutorial is provided for your convenience in the following files:
 
-* [1-set-ift-credentials.js](https://github.com/jeancarl/node-red-labs/tree/master/node-red-twitter-personality/code/1-set-ift-credentials.js) Configure the service credentials for the Insights for Twitter service.
+* [1-set-url.js](https://github.com/jeancarl/node-red-labs/tree/master/node-red-twitter-personality/code/1-set-url.js) Configure the Insights for Twitter service to use the desired search query.
 * [2-concatenate-tweets.js](https://github.com/jeancarl/node-red-labs/tree/master/node-red-twitter-personality/code/2-concatenate-tweets.js) JavaScript to concatenate tweets.
 * [3-process-results.js](https://github.com/jeancarl/node-red-labs/tree/master/node-red-twitter-personality/code/3-process-results.js) JavaScript that rearrange the results from the IBM Watson Personality Insights.
 * [4-display-analysis.html](https://github.com/jeancarl/node-red-labs/tree/master/node-red-twitter-personality/code/4-display-analysis.html) HTML webpage that displays the results from IBM Watson Personality Insights service.
