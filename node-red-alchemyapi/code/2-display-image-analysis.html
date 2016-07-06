@@ -19,52 +19,32 @@
 #   See the License for the specific language governing permissions and
 #***************************************************************************
 -->
-<img src="{{payload}}" style="max-width: 300px; max-height: 300px"/>
+{{#result.images}}
+<img src="{{resolved_url}}" style="max-width: 300px; max-height: 300px"/>
 
-{{#result}}
+{{#faces}}
 <table border="1">
-  <tr>
-    <td colspan="2">{{identity.name}}</td>
-  </tr>
-  <tr>
-    <td>Age</td>
-    <td>{{age.ageRange}} ({{age.score}})</td>
-  </tr>
-  <tr>
-    <td>Gender</td>
-    <td>{{gender.gender}} {{gender.score}}</td>
-  </tr>
-  <tr>
-    <td>Position</td>
-    <td>({{positionX}}, {{positionY}}) [{{width}} x {{height}}]</td>
-  </tr>
-  <tr>
-    <td>Type</td>
-    <td>
-      {{#identity.disambiguated.subType}}
-        {{.}}<br />
-      {{/identity.disambiguated.subType}}
-    </td>
-  </tr>
-  <tr>
-    <td>References</td>
-    <td>
-      {{#identity.disambiguated.dbpedia}}
-        <a href="{{.}}" target="_blank">{{.}}</a><br />
-      {{/identity.disambiguated.dbpedia}}
-      {{#identity.disambiguated.freebase}}
-        <a href="{{.}}" target="_blank">{{.}}</a><br />
-      {{/identity.disambiguated.freebase}}
-      {{#identity.disambiguated.musicBrainz}}
-        <a href="{{.}}" target="_blank">{{.}}</a><br />
-      {{/identity.disambiguated.musicBrainz}}
-      {{#identity.disambiguated.yago}}
-        <a href="{{.}}" target="_blank">{{.}}</a><br />
-      {{/identity.disambiguated.yago}}
-      {{#identity.disambiguated.website}}
-        <a href="{{.}}" target="_blank">{{.}}</a><br />
-      {{/identity.disambiguated.website}}
-    </td>
-  </tr>
+    <tr>
+        <td colspan="2">{{identity.name}}</td>
+    </tr>
+    <tr>
+        <td>Age</td>
+        <td>{{age.min}} - {{age.max}} ({{age.score}})</td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td>{{gender.gender}} {{gender.score}}</td>
+    </tr>
+    <tr>
+        <td>Position</td>
+        <td>({{face_location.left}}, {{face_location.top}}) [{{face_location.width}} x {{face_location.height}}]</td>
+    </tr>
+    <tr>
+        <td>Type</td>
+        <td>
+            {{identity.type_hierarchy}}
+        </td>
+    </tr>
 </table>
-{{/result}}
+{{/faces}}
+{{/result.images}}
