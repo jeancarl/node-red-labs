@@ -1,6 +1,6 @@
 # AlchemyAPI in Node-RED
 
-Learn how to build a flow that analyzes a news article and returns attributes including keywords, entities, concepts, taxonomy, document sentiment, author, publication date, title and more. Learn how to build a flow that analyzes an image and returns a handful of attributes including gender, age-range, and if known, the name and type, of each person in the given image.
+Learn how to build a flow that analyzes a news article and returns attributes including keywords, entities, concepts, taxonomy, document sentiment, author, publication date, title and more. Learn how to build a flow that analyzes an image and returns a handful of attributes including gender, age-range, and if known, the name and type, of each person in the given image. Learn how to search new articles for sentiment and other attributes.
 
 ## Getting Started
 
@@ -12,7 +12,8 @@ HTML and JSON code used in this Node-RED tutorial is provided for your convenien
 
 * [1-display-content-analysis.html](https://github.com/jeancarl/node-red-labs/tree/master/node-red-alchemyapi/code/1-display-content-analysis.html) HTML to display the results of the content returned from the AlchemyLanguage API.
 * [2-display-image-analysis.html](https://github.com/jeancarl/node-red-labs/tree/master/node-red-alchemyapi/code/2-display-image-analysis.html) HTML to display the results of the content returned from the AlchemyLanguage API.
-* [3-complete-flow.json](https://github.com/jeancarl/node-red-labs/tree/master/node-red-alchemyapi/code/2-complete-flow.json) Import this JSON into Node-RED to build the completed flow.
+* [3-display-news-results.html](https://github.com/jeancarl/node-red-labs/tree/master/node-red-alchemyapi/code/3-display-news-results.html) HTML to display the results of the content returned from the AlchemyData News API.
+* [4-complete-flow.json](https://github.com/jeancarl/node-red-labs/tree/master/node-red-alchemyapi/code/4-complete-flow.json) Import this JSON into Node-RED to build the completed flow.
 
 ## License
 
