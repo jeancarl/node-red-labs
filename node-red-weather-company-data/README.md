@@ -16,7 +16,7 @@ HTML and JSON code used in this Node-RED tutorial is provided for your convenien
 * [4-display-forecast.html](https://github.com/jeancarl/node-red-labs/tree/master/node-red-weather-company-data/code/4-display-forecast.html) HTML to display the 10-day weather forecast.
 * [5-display-time-series.html](https://github.com/jeancarl/node-red-labs/tree/master/node-red-weather-company-data/code/5-display-time-series.html) HTML to display time series observations from the last 24 hours.
 * [6-display-almanac-results.html](https://github.com/jeancarl/node-red-labs/tree/master/node-red-weather-company-data/code/6-display-almanac-results.html) HTML to display weather almanac data.
-* [7-complete-flow.json](https://github.com/jeancarl/node-red-labs/tree/master/node-red-node-red-weather-company-data/code/7-complete-flow.json) Import this JSON into Node-RED to build the completed flow.
+* [7-complete-flow.json](https://github.com/jeancarl/node-red-labs/tree/master/node-red-weather-company-data/code/7-complete-flow.json) Import this JSON into Node-RED to build the completed flow.
 
 ## License
 
