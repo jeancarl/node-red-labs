@@ -9,7 +9,7 @@ Learn how to use Node-RED nodes with these quick labs
 * [Insights for Twitter & Personality Insights](https://github.com/jeancarl/node-red-labs/tree/master/node-red-twitter-personality)
 
 # Bluemix services
-* [Weather Company Data for IBM Bluemix] Insights](https://github.com/jeancarl/node-red-labs/tree/master/node-red-weather-company-data)
+* [Weather Company Data for IBM Bluemix](https://github.com/jeancarl/node-red-labs/tree/master/node-red-weather-company-data)
 
 # Other labs
 * [Creating a Webpage](https://github.com/jeancarl/node-red-labs/tree/master/node-red-webpage)
