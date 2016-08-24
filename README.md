@@ -13,6 +13,7 @@ Learn how to use Node-RED nodes with these quick labs
 
 # Other labs
 * [Creating a Webpage](https://github.com/jeancarl/node-red-labs/tree/master/node-red-webpage)
+* [Custom Nodes in Node-RED](https://github.com/jeancarl/node-red-labs/tree/master/node-red-custom-nodes)
 
 # Multi-part services
 * [Temperature Sensor using Intel Edison Tracking/Notification](https://github.com/jeancarl/node-red-labs/tree/master/lab-temperature-sensor-with-intel-edison)
