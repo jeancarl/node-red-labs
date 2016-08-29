@@ -19,6 +19,7 @@ HTML and JSON code used in this Node-RED tutorial is provided for your convenien
 * [7-generate-html-list.html](https://github.com/jeancarl/node-red-labs/tree/master/node-red-custom-nodes/code/7-generate-html-list.html) HTML to generate a list of attendees for HTML PDF node.
 * [8-set-headers.js](https://github.com/jeancarl/node-red-labs/tree/master/node-red-custom-nodes/code/8-set-headers.js) JavaScript to set the correct HTTP response headers.
 * [9-complete-flow.js](https://github.com/jeancarl/node-red-labs/tree/master/node-red-custom-nodes/code/9-complete-flow.js) Import this JSON into Node-RED to build the completed flow.
+* [10-complete-cloudant-flow.js](https://github.com/jeancarl/node-red-labs/tree/master/node-red-custom-nodes/code/10-complete-cloudant-flow.js) Import this JSON into Node-RED to build the completed flow that uses Cloudant to store attendee list.
 
 ## License
 
