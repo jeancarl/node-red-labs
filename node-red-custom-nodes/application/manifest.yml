@@ -1,0 +1,10 @@
+applications:
+- memory: 512M
+  services:
+  - customnodes-cloudantNoSQLDB
+  env:
+    NODE_RED_STORAGE_NAME: customnodes-cloudantNoSQLDB
+declared-services:
+  customnodes-cloudantNoSQLDB:
+    label: cloudantNoSQLDB
+    plan:  Lite

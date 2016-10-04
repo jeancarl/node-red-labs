@@ -1,0 +1,27 @@
+{
+    "name"         : "node-red-lab-custom-nodes",
+    "version"      : "0.0.1",
+    "dependencies": {
+        "when": "~3.x",
+        "nano": "~5.11.0",
+        "cfenv":"~1.0.0",
+        "feedparser":"~0.19.2",
+        "redis":"~0.10.1",
+        "node-red": "0.x",
+        "node-red-bluemix-nodes":"1.x",
+        "node-red-node-watson":"0.x",
+        "node-red-node-openwhisk":"0.x",
+        "node-red-node-cf-cloudant":"0.x",
+        "node-red-contrib-scx-ibmiotapp":"0.x",
+        "node-red-contrib-ibmpush":"0.x",
+        "node-red-contrib-bluemix-hdfs":"0.x",
+        "node-red-nodes-cf-sqldb-dashdb":"0.x",
+        "node-red-contrib-pdf":"0.1.0"
+    },
+    "scripts": {
+        "start": "node --max-old-space-size=384 node_modules/node-red/red.js --settings ./bluemix-settings.js -v"
+    },
+    "engines": {
+        "node": "4.x"
+    }
+}

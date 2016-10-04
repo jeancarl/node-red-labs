@@ -21,6 +21,11 @@ HTML and JSON code used in this Node-RED tutorial is provided for your convenien
 * [9-complete-flow.js](https://github.com/jeancarl/node-red-labs/tree/master/node-red-custom-nodes/code/9-complete-flow.js) Import this JSON into Node-RED to build the completed flow.
 * [10-complete-cloudant-flow.js](https://github.com/jeancarl/node-red-labs/tree/master/node-red-custom-nodes/code/10-complete-cloudant-flow.js) Import this JSON into Node-RED to build the completed flow that uses Cloudant to store attendee list.
 
+## Deploy Completed Application
+For your convenience, the completed application that this lab walks through creating can be deployed to your IBM Bluemix account by clicking on the Deploy to Bluemix button below.
+
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/jeancarl/node-red-labs/tree/master/node-red-custom-nodes/application)
+
 ## License
 
 This code is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/jeancarl/node-red-labs/tree/master/node-red-custom-nodes/LICENSE).
