@@ -1,5 +1,9 @@
 # AlchemyAPI in Node-RED
 
+---
+Deprecated: This lab is being deprecated starting on April 7, 2017, as it will no longer be possible to create a new instance of AlchemyAPI on Bluemix. Existing service instances will be supported until April 7, 2018. Please refer to the alternative [Natural Language Understanding lab](https://github.com/jeancarl/node-red-labs/tree/master/node-red-natural-language-understanding).
+---
+
 Learn how to build a flow that analyzes a news article and returns attributes including keywords, entities, concepts, taxonomy, document sentiment, author, publication date, title and more. Learn how to build a flow that analyzes an image and returns a handful of attributes including gender, age-range, and if known, the name and type, of each person in the given image. Learn how to search new articles for sentiment and other attributes.
 
 ## Getting Started
