@@ -1,0 +1,20 @@
+{{#result.images}}
+    <img src="{{source_url}}"/><br />
+    {{#classifiers}}
+        <h2>{{name}}</h2>
+        <table border="1">
+            <tr>
+                <td>Class</td>
+                <td>Score</td>
+                <td>Type Hierarchy</td>
+            </tr>
+            {{#classes}}
+                <tr>
+                    <td>{{class}}</td>
+                    <td>{{score}}</td>
+                    <td>{{type_hierarchy}}</td>
+                </tr>
+            {{/classes}}
+        </table>
+    {{/classifiers}}
+{{/result.images}}

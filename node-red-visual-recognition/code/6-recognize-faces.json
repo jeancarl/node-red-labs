@@ -1,0 +1,35 @@
+<style>
+.box-location {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border: 3px solid rgba(255, 255, 255, 0.54);
+	border-color: #f3f3f3;
+	top: 0rem;
+	display: block;
+	margin-top: 0rem;
+	left: calc(50% - 7rem);
+}
+</style>
+
+{{#result.images}}
+<img src="{{source_url}}"/>
+{{#faces}}
+    <div class="box-location" style="height: {{face_location.height}}px; left: {{face_location.left}}px; top: {{face_location.top}}px; width: {{face_location.width}}px;"></div>
+{{/faces}}
+
+<table border="1">
+        <tr>
+            <td>Gender</td>
+            <td>Age Range</td>
+            <td>Location</td>
+        </tr>
+    {{#faces}}
+        <tr>
+            <td>{{gender.gender}} ({{gender.score}})</td>
+            <td>{{age.min}}-{{age.max}} ({{age.score}})</td>
+            <td>{{face_location.left}},{{face_location.top}} {{face_location.width}}X{{face_location.height}}</td>
+        </tr>
+    {{/faces}}
+</table>
+{{/result.images}}
