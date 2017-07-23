@@ -10,6 +10,7 @@ Learn how to use Node-RED nodes with these quick labs
 
 
 # Internet of Things
+* [Raspberry Pi with Sense HAT](https://github.com/jeancarl/node-red-labs/tree/master/node-red-sense-hat)
 * [Temperature Sensor using Intel Edison Tracking/Notification](https://github.com/jeancarl/node-red-labs/tree/master/lab-temperature-sensor-with-intel-edison)
 * [Watson Internet of Things/Home Simulator](https://github.com/jeancarl/node-red-labs/tree/master/lab-home-iot)
 * [Mobile Device Movement/Accelerometer Sensor Lab](https://github.com/jeancarl/node-red-labs/tree/master/lab-mobile-accelerometer-sensor)
@@ -24,5 +25,3 @@ Learn how to use Node-RED nodes with these quick labs
 # Other labs
 * [Creating a Webpage](https://github.com/jeancarl/node-red-labs/tree/master/node-red-webpage)
 * [Custom Nodes in Node-RED](https://github.com/jeancarl/node-red-labs/tree/master/node-red-custom-nodes)
-
-# Multi-part services
