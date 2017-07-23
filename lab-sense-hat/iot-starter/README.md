@@ -4,7 +4,7 @@ Learn how to use a simulated temperature sensor connected to a Node-RED applicat
 
 ## Getting Started
 
-Download and follow the lab found in [lab-temperature-sensor-with-iot-starter.pdf](https://github.com/jeancarl/node-red-labs/blob/master/lab-sense-hat/iot-starter/lab-temperature-sensor-with-iot-starter.pdf).
+Download and follow the lab found in [lab-temperature-sensor-with-iot-starter.pdf](https://github.com/jeancarl/node-red-labs/blob/master/lab-sense-hat/iot-starter/lab-sense-hat-iot-starter.pdf).
 
 ## Code Snippets
 
