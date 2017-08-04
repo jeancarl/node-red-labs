@@ -8,7 +8,7 @@ For instructions on setting up the Raspberry Pi, upgrading Node-RED, and install
 
 ## Emotional Light
 
-[Project Resources](emotional-light) | [PDF](emotional-light/node-red-emotional-light.pdf)
+[Project Resources](emotional-light) | [PDF](emotional-light/node-red-tjbot-emotional-light.pdf)
 
 _Uses_: Microphone, LED, Watson Speech to Text, Watson Tone Analyzer
 
@@ -18,13 +18,13 @@ Train TJBot to listen to phrases and analyze the emotional tone using Watson Ton
 
 ## Say What I See
 
-[Project Resources](say-what-i-see) | [PDF](say-what-i-see/node-red-say-what-i-see.pdf)
+[Project Resources](say-what-i-see) | [PDF](say-what-i-see/node-red-tjbot-say-what-i-see.pdf)
 
 _Uses_: Camera, Speaker, Watson Visual Recognition, Watson Text to Speech
 
 Train TJBot to take a photo with the Raspberry Pi, classify it with Watson Visual Recognition, and speak what objects and colors are seen with Watson Text to Speech and the speaker.
 
-![](say-what-i-see/assets/flow.png) 
+![](say-what-i-see/assets/flow.png)
 
 ## License
 

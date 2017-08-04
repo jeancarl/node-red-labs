@@ -1,6 +1,10 @@
 # node-red-labs
 Learn how to use Node-RED nodes with these quick labs
 
+# TJBot
+* [Emotional Light](https://github.com/jeancarl/node-red-labs/tree/master/node-red-tjbot/emotional-light)
+* [Say What I See](https://github.com/jeancarl/node-red-labs/tree/master/node-red-tjbot/say-what-i-see)
+
 # IBM Watson services
 * [Language Translation](https://github.com/jeancarl/node-red-labs/tree/master/node-red-language-translation)
 * [Natural Langauge Understanding](https://github.com/jeancarl/node-red-labs/tree/master/node-red-natural-language-understanding)
